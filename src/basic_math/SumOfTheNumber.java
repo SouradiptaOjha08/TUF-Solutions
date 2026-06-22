@@ -1,6 +1,8 @@
+package basic_math;
+
 import java.util.Scanner;
 
-public class Main {
+public class SumOfTheNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
