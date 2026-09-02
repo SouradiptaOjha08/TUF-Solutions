@@ -2,7 +2,7 @@ package pattern_problems;
 
 import java.util.Scanner;
 
-public class Flip_Nums {
+public class pattern_11_Flip_Nums {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -12,6 +12,23 @@ public class Flip_Nums {
 
 	}
 	
+	/*
+	 * Logic:
+	 * 1. The pattern has N rows, where row i prints i + 1 numbers.
+	 * 2. Even-indexed rows start with 1, odd-indexed rows start with 0.
+	 *    This creates the required flipped starting value for every row.
+	 * 3. For each value printed in a row, flip the current number using:
+	 *       start = 1 - start
+	 *    If start is 1, it becomes 0; if start is 0, it becomes 1.
+	 * 4. After printing all numbers in the current row, print a newline.
+	 *
+	 * Example for N = 5:
+	 * 1
+	 * 01
+	 * 101
+	 * 0101
+	 * 10101
+	 */
 	static void flipNums(int N)
 	{
 	     // First row starts by printing a single 1.

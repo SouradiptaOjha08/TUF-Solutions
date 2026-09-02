@@ -8,12 +8,12 @@ public class Pattern_3 {
 
         Scanner s = new Scanner(System.in);
         int target = s.nextInt();
-        pattern1(target);
+        pattern3(target);
 
 
     }
 
-    public static void pattern1(int n) {
+    public static void pattern3(int n) {
 
         for (int i = 1; i <=n; i++) {
             for (int j = n; j >= i; j--) {

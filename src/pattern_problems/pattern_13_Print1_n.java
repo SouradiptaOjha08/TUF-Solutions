@@ -2,7 +2,7 @@ package pattern_problems;
 
 import java.util.Scanner;
 
-public class Print1_n {
+public class pattern_13_Print1_n {
 
 	public static void main(String[] args) {
 		

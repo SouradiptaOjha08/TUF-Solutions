@@ -2,7 +2,7 @@ package pattern_problems;
 
 import java.util.Scanner;
 
-public class ReversePyramid {
+public class pattern_8_ReversePyramid {
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
         int target=s.nextInt();
