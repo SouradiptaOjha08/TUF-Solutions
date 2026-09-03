@@ -34,7 +34,7 @@ public class pattern_15_Alphabet_pattern_2 {
         for (int i = 0; i < n; i++) {
             // Row 0 prints n letters, row 1 prints n - 1, and so on.
             // For n = 5 and i = 1, the last letter is 'A' + (5 - 1 - 1) = 'D'.
-            for (char ch = 'A'; ch <= 'A' + (n - i - 1); ch++) {
+            for (char ch = 'A'; ch < 'A' + (n - i ); ch++) {
                 System.out.print(ch);
             }
             // Move to the next line after the current row is complete.
