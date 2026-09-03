@@ -2,6 +2,15 @@ package pattern_problems;
 
 public class pattern_15_Alphabet_pattern_2 {
 
+    public static void main(String[] args) {
+        int n = 5;
+
+        // Create the pattern object and print five decreasing alphabet rows.
+        pattern_15_Alphabet_pattern_2 pattern =
+                new pattern_15_Alphabet_pattern_2();
+        pattern.pattern15(n);
+    }
+
     /**
      * Prints an inverted alphabet pattern.
      *
@@ -31,13 +40,5 @@ public class pattern_15_Alphabet_pattern_2 {
             // Move to the next line after the current row is complete.
             System.out.println();
         }
-    }
-
-    public static void main(String[] args) {
-        int n = 5;
-
-        // Create the pattern object and print five decreasing alphabet rows.
-        pattern_15_Alphabet_pattern_2 pattern = new pattern_15_Alphabet_pattern_2();
-        pattern.pattern15(n);
     }
 }
