@@ -6,19 +6,19 @@ public class CheckPalindrome {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        long n = scanner.nextInt();
         System.out.println(checkPalindrome(n));
     }
 
-    private static boolean checkPalindrome(int n) {
-        int copy = n;
+    private static boolean checkPalindrome(long n) {
+        long copy = n;
     /* After the code, revNum will
     contain the reversed number */
-        int revNum = 0;
+        long revNum = 0;
     /* Keep on iterating while there
     are digits left to extract */
         while (n > 0) {
-            int lastDigit = n % 10;
+            long lastDigit = n % 10;
       /* Pushing last digit at the
       back of reversed number */
             revNum = (revNum * 10) + lastDigit;
