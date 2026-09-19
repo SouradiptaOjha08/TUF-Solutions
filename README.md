@@ -1,3 +1,5 @@
+# TUF-Solutions
+A collection of TakeUForward (TUF+) solutions - Auto-synced with TUFHub
 # Java Data Structures & Algorithms (DSA) Practice
 
 Welcome to my personal repository dedicated to mastering Data Structures and Algorithms using **Java**. This repository serves as a centralized hub for tracking my learning progress, implementing core DSA concepts from scratch, and solving classic algorithmic challenges.
