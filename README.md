@@ -78,5 +78,5 @@ This section documents all the DSA and foundational problems solved and practice
 ---
 
 <p align="center">
-  Crafted with ❤️ for Problem Solvers by <a href="https://github.com/Arora-Sir">Mohit Arora</a> &nbsp;|&nbsp; Practice on <a href="https://takeuforward.org/plus?affiliate=arorasir">TakeUForward (TUF+)</a> &nbsp;|&nbsp; ⭐ <a href="https://github.com/Arora-Sir/TUFHub">Star TUFHub on GitHub</a>
+  Built with ❤️ by <a href="https://github.com/SouradiptaOjha08">Souradipta Ojha</a> &nbsp;|&nbsp; Learning DSA & Java one problem at a time
 </p>
