@@ -30,7 +30,8 @@ This section documents all the DSA and foundational problems solved and practice
 | **Basic Mathematics** | 11 | [`src/basic_math/`](./src/basic_math) |
 | **Pattern Printing** | 13 | [`src/pattern_problems/`](./src/pattern_problems) |
 | **Arrays** | 4 | [`src/arrays/`](./src/arrays) |
-| **Total Previously Solved** | **28** | [`src/`](./src) |
+| **OOP** | 1 | [`src/oops/`](./src/oops) |
+| **Total Previously Solved** | **29** | [`src/`](./src) |
 
 ---
 
@@ -70,6 +71,9 @@ This section documents all the DSA and foundational problems solved and practice
 2. **Find Largest Element in Array** — [`p2_maxOfArray.java`](./src/arrays/p2_maxOfArray.java)
 3. **Linear Search (Check if Value is Present)** — [`p1_ifValuePresent.java`](./src/arrays/p1_ifValuePresent.java)
 4. **Sum of Array Elements** — [`SumOfAnArray.java`](./src/arrays/SumOfAnArray.java)
+
+#### 4. OOP (`src/oops/`) — 1 Problem
+1. **Bank Account** — [`BankAccount.java`](./src/oops/BankAccount.java)
 
 ---
 
