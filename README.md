@@ -6,16 +6,24 @@
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |
 | :---: | :---: | :---: | :---: | :---: |
-| **2** | 2 | 0 | 0 | `2026-09-19` |
+| **3** | 2 | 1 | 0 | `2026-11-05` |
 
 ---
 
 ## 🗂️ Solved Problems Index
 
-| # | Title | Solution(s) | Difficulty | Category |
+### DSA (2)
+
+| # | Title | Solution(s) | Difficulty | Topic |
 | :---: | :--- | :---: | :---: | :--- |
-| 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `DSA` / `Arrays` |
-| 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `DSA` / `Arrays` |
+| 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `Arrays` |
+| 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `Arrays` |
+
+### Design (1)
+
+| # | Title | Solution(s) | Difficulty | Topic |
+| :---: | :--- | :---: | :---: | :--- |
+| 0001 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` |
 
 ---
 
