@@ -1,4 +1,4 @@
-# [Practice (Access Modifiers)](https://takeuforward.org/practice/design/practice-access-modifiers?category=core-principles-of-oops&source=oops&ai=true&sidebar=0)
+# [Practice (Access Modifiers)](https://takeuforward.org/practice/design/practice-access-modifiers?category=core-principles-of-oops&source=oops&sidebar=0&ai=true)
 
 ![Difficulty: Unspecified](https://img.shields.io/badge/Difficulty-Unspecified-6b7280?style=for-the-badge)
 
