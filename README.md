@@ -6,7 +6,7 @@
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |
 | :---: | :---: | :---: | :---: | :---: |
-| **6** | 2 | 4 | 0 | `2026-11-11` |
+| **7** | 2 | 5 | 0 | `2026-11-11` |
 
 ---
 
@@ -19,14 +19,15 @@
 | 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `Arrays` | `-` |
 | 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `Arrays` | `-` |
 
-### Design (4)
+### Design (5)
 
 | # | Title | Solution(s) | Difficulty | Topic | Last Synced |
 | :---: | :--- | :---: | :---: | :--- | :---: |
-| 0001 | [Practice (Access Modifiers)](./Design/Core-Principles-Of-Oops/practice-access-modifiers) | [JAVA](./Design/Core-Principles-Of-Oops/practice-access-modifiers/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
-| 0002 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
-| 0003 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
-| 0004 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
+| 0001 | [Practice (Abstraction)](./Design/Advance-Oops-Features/practice-abstraction) | [JAVA](./Design/Advance-Oops-Features/practice-abstraction/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-11` |
+| 0002 | [Practice (Access Modifiers)](./Design/Core-Principles-Of-Oops/practice-access-modifiers) | [JAVA](./Design/Core-Principles-Of-Oops/practice-access-modifiers/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
+| 0003 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
+| 0004 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
+| 0005 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
 
 ---
 
