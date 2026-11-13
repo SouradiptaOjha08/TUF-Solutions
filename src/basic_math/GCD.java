@@ -10,16 +10,17 @@ public class GCD {
         System.out.println(gcdOfTwoNumbers(a, b));
     }
 
-    private static int gcdOfTwoNumbers(int a, int b) {
-        int largest = 1;
-        int min = Math.min(a, b);
-        for (int i = 2; i <= min; i++) {
-            if (a % i == 0 && b % i == 0) {
-                largest = i;
+    private static long gcdOfTwoNumbers(int a, int b) {
+        long first = Math.abs((long) a);
+        long second = Math.abs((long) b);
+        long min = Math.min(first, second);
+        if (min == 0) return Math.max(first, second);
+        for (long i = min; i > 1; i--) {
+            if (first % i == 0 && second % i == 0) {
+                return i;
             }
-
         }
-        return largest;
+        return 1;
     }
 
 }

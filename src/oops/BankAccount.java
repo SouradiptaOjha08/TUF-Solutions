@@ -48,7 +48,9 @@ public class BankAccount {
     }
 
     public void withdraw(double amount) {
-        if (balance < amount) {
+        if (!Double.isFinite(amount) || amount <= 0) {
+            System.out.println("Invalid input");
+        } else if (balance < amount) {
             System.out.println("Insufficient funds!");
         } else {
             balance = balance - amount;

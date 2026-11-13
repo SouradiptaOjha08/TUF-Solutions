@@ -2,6 +2,22 @@
 
 > Auto-synced using [TUFHub](https://github.com/Arora-Sir/TUFHub): Solutions for [TakeUForward (TUF+)](https://takeuforward.org/pricing?affiliate=arorasir)
 
+## 🧑‍💻 Local Java Practice
+
+The standalone Java exercises in [`src/`](./src) are separate from the TUF judge submissions listed below. They require a JDK with `javac` and `java` available on `PATH`.
+
+- To compile the local exercises into a temporary output directory and run one program:
+
+  ```sh
+  mkdir -p /tmp/java-practice-dsa-classes
+  javac -d /tmp/java-practice-dsa-classes src/arrays/*.java src/basic_math/*.java src/oops/*.java src/pattern_problems/*.java
+  java -cp /tmp/java-practice-dsa-classes basic_math.CountDigits
+  ```
+
+  Programs that use `Scanner` read their input from standard input. For example, `arrays.ReverseAnArray` expects the array size followed by that many integers.
+- TUF `solution.java` files are standalone judge submissions and should be compiled separately because several reuse class names such as `Solution`.
+- See [`PRACTICE.md`](./PRACTICE.md) for the local exercise index.
+
 ## 📊 Solution Progress Summary
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |

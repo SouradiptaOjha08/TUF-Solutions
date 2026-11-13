@@ -9,8 +9,9 @@ public class PerfectNumber {
        System.out.println(isPerfect(input));
     }
     public static boolean isPerfect(int n) {
-        int sum=0;
-        for(int i=1;i<n;i++){
+        if (n <= 1) return false;
+        long sum = 0;
+        for (int i = 1; i < n; i++) {
             if(n%i==0){
                 sum+=i;
             }

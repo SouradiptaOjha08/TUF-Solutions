@@ -3,13 +3,18 @@ package basic_math;
 public class ArmstrongNumber {
 
     static boolean isArmstrong(int n) {
+        if (n < 0) return false;
         int original = n;
-        int sum = 0;
+        long sum = 0;
         int digits = String.valueOf(n).length();
 
         while (n > 0) {
             int lastDigit = n % 10;
-            sum = (int) (sum + Math.pow(lastDigit, digits));
+            long poweredDigit = 1;
+            for (int i = 0; i < digits; i++) {
+                poweredDigit *= lastDigit;
+            }
+            sum += poweredDigit;
             n /= 10;
         }
 

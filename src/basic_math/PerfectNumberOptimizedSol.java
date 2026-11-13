@@ -10,8 +10,9 @@ public class PerfectNumberOptimizedSol {
     }
 
     private static boolean isPerfectOpt(int input) {
-        int sum=1;
-        for(int i=2;i*i<input;i++){
+        if (input <= 1) return false;
+        long sum = 1;
+        for (int i = 2; i <= input / i; i++) {
             if(input%i==0){
                 sum+=i;
                 if (i!=(input/i)){

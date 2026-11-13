@@ -7,17 +7,23 @@ public class LCM {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int max = Math.max(a, b);
         System.out.println(lcmOfTwo(a, b));
     }
 
-    private static int lcmOfTwo(int a, int b) {
-        int max = Math.max(a, b);
-        while (true) {
-            if (max % a == 0 && max % b == 0) {
-                return max;
-            }
-            max++;
+    private static long lcmOfTwo(int a, int b) {
+        long first = Math.abs((long) a);
+        long second = Math.abs((long) b);
+        if (first == 0 || second == 0) return 0;
+        long gcd = gcdOfTwoNumbers(first, second);
+        return first / gcd * second;
+    }
+
+    private static long gcdOfTwoNumbers(long first, long second) {
+        while (second != 0) {
+            long remainder = first % second;
+            first = second;
+            second = remainder;
         }
+        return first;
     }
 }

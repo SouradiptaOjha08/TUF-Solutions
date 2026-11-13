@@ -11,14 +11,16 @@ public class GCDOptimizedSol {
         System.out.println(gcdOfTwoNumbers(a, b));
     }
 
-    private static int gcdOfTwoNumbers(int a, int b) {
-        while (b != 0) {
-            int remainder = a % b;
-            a = b;
-            b = remainder;
+    private static long gcdOfTwoNumbers(int a, int b) {
+        long first = Math.abs((long) a);
+        long second = Math.abs((long) b);
+        while (second != 0) {
+            long remainder = first % second;
+            first = second;
+            second = remainder;
 
         }
-        return a;
+        return first;
     }
 
 }

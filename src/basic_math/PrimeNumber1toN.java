@@ -7,7 +7,7 @@ public class PrimeNumber1toN {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int count = 0;
-        for (int i = 2; i <= n; i++) {
+        for (long i = 2; i <= n; i++) {
             if (isPrime(i)) {
                 count++;
             }
@@ -15,9 +15,9 @@ public class PrimeNumber1toN {
         System.out.println(count);
     }
 
-    private static boolean isPrime(int input) {
-        if (input == 1) return false;
-        for (int i = 2; i * i <= input; i++) {
+    private static boolean isPrime(long input) {
+        if (input < 2) return false;
+        for (long i = 2; i <= input / i; i++) {
             if (input % i == 0) {
                 return false;
             }

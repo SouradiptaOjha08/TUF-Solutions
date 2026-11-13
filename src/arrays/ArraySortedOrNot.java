@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArraySortedOrNot {
     public static void main(String[] args) {
-        int arr[]= {1, 25, 3 , 5 , 8};
+        int arr[]= {1, 2, 3 , 5 , 8};
         System.out.println(arrayIsSorted(arr));
     }
 

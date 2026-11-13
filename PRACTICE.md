@@ -1,22 +1,22 @@
-# 📌 Previously Solved Practice Problems (`src/`)
+# 📌 Local Practice Problems (`src/`)
 
-This section documents all the DSA and foundational problems solved and practiced locally prior to auto-syncing with TUFHub.
+This section indexes the DSA and foundational exercises practiced locally, separately from the TUFHub submissions.
 
-### 🔢 Previous Practice Count Summary
+### 🔢 Local Exercise Count Summary
 
-| Category | Problems Solved | Location |
+| Category | Exercises | Location |
 | :--- | :---: | :--- |
 | **Basic Mathematics** | 11 | [`src/basic_math/`](./src/basic_math) |
-| **Pattern Printing** | 13 | [`src/pattern_problems/`](./src/pattern_problems) |
-| **Arrays** | 4 | [`src/arrays/`](./src/arrays) |
-| **OOP** | 1 | [`src/oops/`](./src/oops) |
-| **Total Previously Solved** | **29** | [`src/`](./src) |
+| **Pattern Printing** | 14 | [`src/pattern_problems/`](./src/pattern_problems) |
+| **Arrays** | 5 | [`src/arrays/`](./src/arrays) |
+| **OOP** | 2 | [`src/oops/`](./src/oops) |
+| **Total Exercises** | **32** | [`src/`](./src) |
 
 ---
 
-### 📋 Detailed List of Previously Solved Problems
+### 📋 Detailed Exercise List
 
-#### 1. Basic Mathematics (`src/basic_math/`) — 11 Problems
+#### 1. Basic Mathematics (`src/basic_math/`) — 11 Exercises
 1. **Count Digits in a Number** — [`CountDigits.java`](./src/basic_math/CountDigits.java)
 2. **Count Odd Digits in a Number** — [`CountOddDigitsInANumber.java`](./src/basic_math/CountOddDigitsInANumber.java)
 3. **Reverse a Number** — [`ReverseOfANumber.java`](./src/basic_math/ReverseOfANumber.java)
@@ -29,7 +29,7 @@ This section documents all the DSA and foundational problems solved and practice
 10. **Lowest Common Multiple (LCM)** — [`LCM.java`](./src/basic_math/LCM.java) | [Optimized Solution](./src/basic_math/LCMOptimizedSol.java)
 11. **Sum of Digits of a Number** — [`SumOfTheNumber.java`](./src/basic_math/SumOfTheNumber.java)
 
-#### 2. Pattern Printing (`src/pattern_problems/`) — 13 Patterns
+#### 2. Pattern Printing (`src/pattern_problems/`) — 14 Patterns
 1. **Pattern 1: Rectangular Star Pattern** — [`Pattern_1.java`](./src/pattern_problems/Pattern_1.java)
 2. **Pattern 2: Right-Angled Triangle Pattern** — [`Pattern_2.java`](./src/pattern_problems/Pattern_2.java)
 3. **Pattern 3: Right-Angled Number Pyramid** — [`Pattern_2.java`](./src/pattern_problems/Pattern_2.java)
@@ -45,16 +45,16 @@ This section documents all the DSA and foundational problems solved and practice
 13. **Pattern 21: Hollow Rectangle Pattern** — [`Square_pattern.java`](./src/pattern_problems/Square_pattern.java)
 14. **Inverted / Mirrored Triangle** — [`Inverted_triangle.java`](./src/pattern_problems/Inverted_triangle.java)
 
-#### 3. Arrays (`src/arrays/`) — 4 Problems
+#### 3. Arrays (`src/arrays/`) — 5 Exercises
 1. **Check if Array is Sorted** — [`ArraySortedOrNot.java`](./src/arrays/ArraySortedOrNot.java)
 2. **Find Largest Element in Array** — [`p2_maxOfArray.java`](./src/arrays/p2_maxOfArray.java)
 3. **Linear Search (Check if Value is Present)** — [`p1_ifValuePresent.java`](./src/arrays/p1_ifValuePresent.java)
 4. **Sum of Array Elements** — [`SumOfAnArray.java`](./src/arrays/SumOfAnArray.java)
+5. **Reverse an Array** — [`ReverseAnArray.java`](./src/arrays/ReverseAnArray.java)
 
-#### 4. OOP (`src/oops/`) — 1 Problem
+#### 4. OOP (`src/oops/`) — 2 Exercises
 1. **Bank Account** — [`BankAccount.java`](./src/oops/BankAccount.java)
-
----
+2. **Rectangle Area** — [`Rectangle.java`](./src/oops/Rectangle.java)
 
 ---
 

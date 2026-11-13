@@ -6,16 +6,16 @@ public class SumOfTheNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int number = scanner.nextInt();
+        long number = scanner.nextLong();
         System.out.println(sumOfTheNumber(number));
 
         scanner.close();
     }
 
-    public static long sumOfTheNumber(int number) {
+    public static long sumOfTheNumber(long number) {
         long sum = 0;
-        while (number > 0) {
-            sum = number % 10 + sum;
+        while (number != 0) {
+            sum += Math.abs(number % 10);
             number /= 10;
         }
         return sum;
