@@ -2,34 +2,11 @@
 
 > Auto-synced using [TUFHub](https://github.com/Arora-Sir/TUFHub): Solutions for [TakeUForward (TUF+)](https://takeuforward.org/pricing?affiliate=arorasir)
 
-## 🧑‍💻 Local Java Practice
-
-The standalone Java exercises in [`src/`](./src) are separate from the TUF judge submissions listed below. They require a JDK with `javac` and `java` available on `PATH`. There is no automated test script in the repository; use the commands below to compile and run examples manually.
-
-- Compile the local exercises and run an example, providing its standard input:
-
-  ```sh
-  mkdir -p /tmp/java-practice-dsa-classes
-  javac -d /tmp/java-practice-dsa-classes src/arrays/*.java src/basic_math/*.java src/oops/*.java src/pattern_problems/*.java
-  printf '5 1 2 3 4 5\n' | java -cp /tmp/java-practice-dsa-classes arrays.ReverseAnArray
-  ```
-
-  Programs that use `Scanner` read their input from standard input. `arrays.ReverseAnArray` expects the array size followed by that many integers.
-- Compile a TUF judge submission on its own because several submissions reuse class names such as `Solution`:
-
-  ```sh
-  mkdir -p /tmp/java-practice-dsa-judge-classes
-  javac -d /tmp/java-practice-dsa-judge-classes DSA/Arrays/check-if-the-array-is-sorted-i/solution.java
-  ```
-
-  Judge submissions generally do not include a `main` method; run them with the platform-provided driver. The abstraction example also has no active `main` method, so it must be paired with a driver to run.
-- See [`PRACTICE.md`](./PRACTICE.md) for the local exercise index.
-
 ## 📊 Solution Progress Summary
 
-| Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | ⚪ Unspecified | Last Synced |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **8** | 2 | 0 | 0 | 6 | `2026-11-14` |
+| Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |
+| :---: | :---: | :---: | :---: | :---: |
+| **9** | 2 | 1 | 0 | `2026-11-14` |
 
 ---
 
@@ -42,7 +19,7 @@ The standalone Java exercises in [`src/`](./src) are separate from the TUF judge
 | 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `Arrays` | `-` |
 | 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `Arrays` | `-` |
 
-### Design (6)
+### Design (7)
 
 | # | Title | Solution(s) | Difficulty | Topic | Last Synced |
 | :---: | :--- | :---: | :---: | :--- | :---: |
@@ -52,6 +29,7 @@ The standalone Java exercises in [`src/`](./src) are separate from the TUF judge
 | 0004 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
 | 0005 | [Practice (Interfaces)](./Design/Advance-Oops-Features/practice-interfaces) | [JAVA](./Design/Advance-Oops-Features/practice-interfaces/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-14` |
 | 0006 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
+| 0007 | [Practice (Static Keyword)](./Design/Advance-Oops-Features/practice-static-keyword) | [JAVA](./Design/Advance-Oops-Features/practice-static-keyword/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-14` |
 
 ---
 
