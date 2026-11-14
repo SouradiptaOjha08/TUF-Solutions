@@ -29,7 +29,7 @@ The standalone Java exercises in [`src/`](./src) are separate from the TUF judge
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | ⚪ Unspecified | Last Synced |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7** | 2 | 0 | 0 | 5 | `2026-11-11` |
+| **8** | 2 | 0 | 0 | 6 | `2026-11-14` |
 
 ---
 
@@ -42,7 +42,7 @@ The standalone Java exercises in [`src/`](./src) are separate from the TUF judge
 | 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `Arrays` | `-` |
 | 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `Arrays` | `-` |
 
-### Design (5)
+### Design (6)
 
 | # | Title | Solution(s) | Difficulty | Topic | Last Synced |
 | :---: | :--- | :---: | :---: | :--- | :---: |
@@ -50,7 +50,8 @@ The standalone Java exercises in [`src/`](./src) are separate from the TUF judge
 | 0002 | [Practice (Access Modifiers)](./Design/Core-Principles-Of-Oops/practice-access-modifiers) | [JAVA](./Design/Core-Principles-Of-Oops/practice-access-modifiers/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
 | 0003 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
 | 0004 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
-| 0005 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
+| 0005 | [Practice (Interfaces)](./Design/Advance-Oops-Features/practice-interfaces) | [JAVA](./Design/Advance-Oops-Features/practice-interfaces/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-14` |
+| 0006 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
 
 ---
 
