@@ -30,6 +30,9 @@ This section indexes the DSA and foundational exercises practiced locally, separ
 11. **Sum of Digits of a Number** — [`SumOfTheNumber.java`](./src/basic_math/SumOfTheNumber.java)
 
 #### 2. Pattern Printing (`src/pattern_problems/`) — 14 Patterns
+
+The count is for exercises, not unique source files: [`Pattern_2.java`](./src/pattern_problems/Pattern_2.java) prints both the star triangle (Pattern 2) and the number pyramid (Pattern 3).
+
 1. **Pattern 1: Rectangular Star Pattern** — [`Pattern_1.java`](./src/pattern_problems/Pattern_1.java)
 2. **Pattern 2: Right-Angled Triangle Pattern** — [`Pattern_2.java`](./src/pattern_problems/Pattern_2.java)
 3. **Pattern 3: Right-Angled Number Pyramid** — [`Pattern_2.java`](./src/pattern_problems/Pattern_2.java)

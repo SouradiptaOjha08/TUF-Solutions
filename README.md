@@ -4,25 +4,32 @@
 
 ## 🧑‍💻 Local Java Practice
 
-The standalone Java exercises in [`src/`](./src) are separate from the TUF judge submissions listed below. They require a JDK with `javac` and `java` available on `PATH`.
+The standalone Java exercises in [`src/`](./src) are separate from the TUF judge submissions listed below. They require a JDK with `javac` and `java` available on `PATH`. There is no automated test script in the repository; use the commands below to compile and run examples manually.
 
-- To compile the local exercises into a temporary output directory and run one program:
+- Compile the local exercises and run an example, providing its standard input:
 
   ```sh
   mkdir -p /tmp/java-practice-dsa-classes
   javac -d /tmp/java-practice-dsa-classes src/arrays/*.java src/basic_math/*.java src/oops/*.java src/pattern_problems/*.java
-  java -cp /tmp/java-practice-dsa-classes basic_math.CountDigits
+  printf '5 1 2 3 4 5\n' | java -cp /tmp/java-practice-dsa-classes arrays.ReverseAnArray
   ```
 
-  Programs that use `Scanner` read their input from standard input. For example, `arrays.ReverseAnArray` expects the array size followed by that many integers.
-- TUF `solution.java` files are standalone judge submissions and should be compiled separately because several reuse class names such as `Solution`.
+  Programs that use `Scanner` read their input from standard input. `arrays.ReverseAnArray` expects the array size followed by that many integers.
+- Compile a TUF judge submission on its own because several submissions reuse class names such as `Solution`:
+
+  ```sh
+  mkdir -p /tmp/java-practice-dsa-judge-classes
+  javac -d /tmp/java-practice-dsa-judge-classes DSA/Arrays/check-if-the-array-is-sorted-i/solution.java
+  ```
+
+  Judge submissions generally do not include a `main` method; run them with the platform-provided driver. The abstraction example also has no active `main` method, so it must be paired with a driver to run.
 - See [`PRACTICE.md`](./PRACTICE.md) for the local exercise index.
 
 ## 📊 Solution Progress Summary
 
-| Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |
-| :---: | :---: | :---: | :---: | :---: |
-| **7** | 2 | 5 | 0 | `2026-11-11` |
+| Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | ⚪ Unspecified | Last Synced |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **7** | 2 | 0 | 0 | 5 | `2026-11-11` |
 
 ---
 
