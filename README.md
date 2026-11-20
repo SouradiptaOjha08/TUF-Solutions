@@ -6,7 +6,7 @@
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | Last Synced |
 | :---: | :---: | :---: | :---: | :---: |
-| **10** | 2 | 8 | 0 | `2026-11-20` |
+| **11** | 2 | 9 | 0 | `2026-11-20` |
 
 ---
 
@@ -19,18 +19,19 @@
 | 0001 | [Check if the Array is Sorted I](./DSA/Arrays/check-if-the-array-is-sorted-i) | [JAVA](./DSA/Arrays/check-if-the-array-is-sorted-i/solution.java) | 🟢 Easy | `Arrays` | `2026-09-19` |
 | 0002 | [Reverse an array](./DSA/Arrays/reverse-an-array) | [JAVA](./DSA/Arrays/reverse-an-array/solution.java) | 🟢 Easy | `Arrays` | `2026-09-19` |
 
-### Design (8)
+### Design (9)
 
 | # | Title | Solution(s) | Difficulty | Topic | Last Synced |
 | :---: | :--- | :---: | :---: | :--- | :---: |
 | 0001 | [Practice (Abstraction)](./Design/Advance-Oops-Features/practice-abstraction) | [JAVA](./Design/Advance-Oops-Features/practice-abstraction/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-11` |
 | 0002 | [Practice (Access Modifiers)](./Design/Core-Principles-Of-Oops/practice-access-modifiers) | [JAVA](./Design/Core-Principles-Of-Oops/practice-access-modifiers/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
-| 0003 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-13` |
-| 0004 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
-| 0005 | [Practice (Inner classes)](./Design/Advance-Oops-Features/practice-inner-classes) | [JAVA](./Design/Advance-Oops-Features/practice-inner-classes/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-20` |
-| 0006 | [Practice (Interfaces)](./Design/Advance-Oops-Features/practice-interfaces) | [JAVA](./Design/Advance-Oops-Features/practice-interfaces/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-14` |
-| 0007 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
-| 0008 | [Practice Static Keyword](./Design/Advance-Oops-Features/practice-static-keyword) | [JAVA](./Design/Advance-Oops-Features/practice-static-keyword/solution.java) | 🟡 Medium | `Advance-Oops-Features` | `2026-11-14` |
+| 0003 | [Practice (Composition)](./Design/Relationships-and-Object-Behaviour/practice-composition) | [JAVA](./Design/Relationships-and-Object-Behaviour/practice-composition/solution.java) | ⚪ Unspecified | `Relationships-and-Object-Behaviour` | `2026-11-20` |
+| 0004 | [Practice (Encapsulation)](./Design/Core-Principles-Of-Oops/practice-encapsulation) | [JAVA](./Design/Core-Principles-Of-Oops/practice-encapsulation/solution.java) | ⚪ Unspecified | `Core-Principles-Of-Oops` | `2026-11-05` |
+| 0005 | [Practice (Inheritance)](./Design/Core-Principles-of-Oops/practice-inheritance) | [JAVA](./Design/Core-Principles-of-Oops/practice-inheritance/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-09` |
+| 0006 | [Practice (Inner classes)](./Design/Advance-Oops-Features/practice-inner-classes) | [JAVA](./Design/Advance-Oops-Features/practice-inner-classes/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-20` |
+| 0007 | [Practice (Interfaces)](./Design/Advance-Oops-Features/practice-interfaces) | [JAVA](./Design/Advance-Oops-Features/practice-interfaces/solution.java) | ⚪ Unspecified | `Advance-Oops-Features` | `2026-11-14` |
+| 0008 | [Practice (Polymorphism)](./Design/Core-Principles-of-Oops/practice-polymorphism) | [JAVA](./Design/Core-Principles-of-Oops/practice-polymorphism/solution.java) | ⚪ Unspecified | `Core-Principles-of-Oops` | `2026-11-11` |
+| 0009 | [Practice Static Keyword](./Design/Advance-Oops-Features/practice-static-keyword) | [JAVA](./Design/Advance-Oops-Features/practice-static-keyword/solution.java) | 🟡 Medium | `Advance-Oops-Features` | `2026-11-14` |
 
 ---
 
