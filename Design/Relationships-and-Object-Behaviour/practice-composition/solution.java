@@ -1,37 +1,76 @@
 // Your code goes here
 import java.util.*;
 
+// University class represents a university
 class University {
+
+  // List to store multiple College objects belonging to this university
   private List<College> colleges;
+
+  // Stores the name of the university
   private String name;
 
+  // Constructor of University class
+  // This is called automatically when a University object is created
   University(String name) {
+
+    // Creates an empty ArrayList to store College objects
     this.colleges = new ArrayList<>();
+
+    // Assigns the given university name to the current object's name variable
     this.name = name;
   }
-  public void addCollege(String collegeName, String collegeId){
+
+  // Method to add a college to the university
+  public void addCollege(String collegeName, String collegeId) {
+
+    // Creates a new College object using the given name and id,
+    // then adds it to the colleges list
     colleges.add(new College(collegeName, collegeId));
   }
 
+  // Method to display university details along with all college details
   public void displayDetails() {
-        System.out.println("University Name : " + name);
-        for (College college : colleges) {
-            college.displayDetails();
-        }
+
+    // Prints the university name
+    System.out.println("University Name : " + name);
+
+    // Loops through each College object stored in the colleges list
+    for (College college : colleges) {
+
+      // Calls the displayDetails method of each College object
+      college.displayDetails();
     }
+  }
 }
 
+// College class represents a college
 class College {
+
+  // Stores the name of the college
   private String name;
+
+  // Stores the ID of the college
   private String id;
 
+  // Constructor of College class
+  // This is called automatically when a College object is created
   public College(String name, String id) {
+
+    // Assigns the given college name to the current object's name variable
     this.name = name;
+
+    // Assigns the given college id to the current object's id variable
     this.id = id;
   }
 
+  // Method to display college details
   public void displayDetails() {
+
+    // Prints the college name
     System.out.println("College Name : " + name);
+
+    // Prints the college ID
     System.out.println("College ID : " + id);
   }
 }
