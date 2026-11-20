@@ -4,8 +4,8 @@ class Robot {
   String name;
 
   public Robot(String name) {
-        this.name = name;
-    }
+    this.name = name;
+  }
 
   void performAction() {
     System.out.println(this.name + " is performing an action.");
@@ -34,20 +34,20 @@ class Robot {
     sensor.sense();
   }
 
-  public void executeTask() {
-        Task task = new Task() {
-            @Override
-            public void execute() {
-                System.out.println(name + " executing a custom task.");
-            }
-        };
-        task.execute();
-    }
- 
-    interface Task {
-        void execute();
-    }
+  interface Task {
+    void execute();
+  }
 
+  public void executeTask() {
+    Task task =
+        new Task() {
+          @Override
+          public void execute() {
+            System.out.println(name + " executing a custom task.");
+          }
+        };
+    task.execute();
+  }
 }
 
 // Please Do not change anything below, It is only for your reference.
