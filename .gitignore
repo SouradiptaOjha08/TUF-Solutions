@@ -60,3 +60,14 @@ bin/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+### AI Coding Assistants & Plugins ###
+.continue/
+.cline/
+.claude/
+.kilo/
+
+### Environment & Secret Files ###
+.env
+.env.*
+*.env

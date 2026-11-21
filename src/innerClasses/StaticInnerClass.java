@@ -21,7 +21,7 @@ package innerClasses;
  *   specific outer object without explicitly passing one.
  */
 public class StaticInnerClass {
-    static int val=10;
+    static int val = 10;
 
     static class Inner {
         void printVal() {
