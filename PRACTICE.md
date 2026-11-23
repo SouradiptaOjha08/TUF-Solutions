@@ -10,7 +10,10 @@ This section indexes the DSA and foundational exercises practiced locally, separ
 | **Pattern Printing** | 14 | [`src/pattern_problems/`](./src/pattern_problems) |
 | **Arrays** | 5 | [`src/arrays/`](./src/arrays) |
 | **OOP** | 2 | [`src/oops/`](./src/oops) |
-| **Total Exercises** | **32** | [`src/`](./src) |
+| **Cloning** | 2 | [`src/cloning/`](./src/cloning) |
+| **Inner Classes** | 4 | [`src/innerClasses/`](./src/innerClasses) |
+| **Association, Aggregation & Composition** | 3 | [`src/associationAggregationComposition/`](./src/associationAggregationComposition) |
+| **Total Exercises** | **41** | [`src/`](./src) |
 
 ---
 
@@ -58,6 +61,21 @@ The count is for exercises, not unique source files: [`Pattern_2.java`](./src/pa
 #### 4. OOP (`src/oops/`) — 2 Exercises
 1. **Bank Account** — [`BankAccount.java`](./src/oops/BankAccount.java)
 2. **Rectangle Area** — [`Rectangle.java`](./src/oops/Rectangle.java)
+
+#### 5. Cloning (`src/cloning/`) — 2 Exercises
+1. **Deep Clone vs Shallow Clone (Copy Constructor)** — [`DeepCloneShallowClone.java`](./src/cloning/DeepCloneShallowClone.java)
+2. **Cloneable Interface & `clone()` Method (Shallow vs Deep)** — [`CloneableExample.java`](./src/cloning/CloneableExample.java)
+
+#### 6. Inner Classes (`src/innerClasses/`) — 4 Exercises
+1. **Static Nested Class** — [`StaticInnerClass.java`](./src/innerClasses/StaticInnerClass.java)
+2. **Non-Static Inner Class** — [`NonStaticInnerClass.java`](./src/innerClasses/NonStaticInnerClass.java)
+3. **Local Inner Class** — [`LocalInnerClass.java`](./src/innerClasses/LocalInnerClass.java)
+4. **Anonymous Inner Class** — [`AnonymousInnerClass.java`](./src/innerClasses/AnonymousInnerClass.java)
+
+#### 7. Association, Aggregation & Composition (`src/associationAggregationComposition/`) — 3 Exercises
+1. **Association** — [`Association.java`](./src/associationAggregationComposition/association/Association.java)
+2. **Aggregation** — [`Aggregation.java`](./src/associationAggregationComposition/aggregation/Aggregation.java)
+3. **Composition** — [`Composition.java`](./src/associationAggregationComposition/composition/Composition.java)
 
 ---
 
